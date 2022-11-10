@@ -41,23 +41,23 @@ FIGURE-04
 A Parallel in Parallel out (PIPO) shift register is used as a temporary storage device and like SISO Shift register it acts as a delay element.
 
 ### Procedure
-Step1:
+### Step1:
 
 Create a new Quartus II project.
 
-Step2:
+### Step2:
 
 Create a new file in the Quartus II where name of the module is name of the project.
 
-Step3:
+### Step3:
 
 Declare a function for each logical circuit.
 
-Step4:
+### Step4:
 
 For each definition give end module.
 
-Step5:
+### Step5:
 
 Run RTL simulation and timing diagram.
 
@@ -116,18 +116,24 @@ endmodule
 ```
 ### RTL LOGIC  REGISTERS   
 
+### sipo
 ![rtl 1](https://user-images.githubusercontent.com/93427522/201110694-912e7d84-d921-4ea7-84f1-110889dff4b1.png)
 
+### piso
 ![rtl 2](https://user-images.githubusercontent.com/93427522/201110712-92761ff8-e182-4c40-b09a-a64ac10cab8b.png)
 
+### piso
 ![rtl 3](https://user-images.githubusercontent.com/93427522/201110723-52d40682-1d48-42c8-853e-cc6dc4a5b647.png)
 
 ### TIMING DIGRAMS FOR SHIFT REGISTERS
 
+### Sipo
 <img width="830" alt="td1" src="https://user-images.githubusercontent.com/93427522/201110853-63cb154a-1aa6-48cb-94c9-a4157380dbee.png">
 
+### piso
 <img width="829" alt="td2" src="https://user-images.githubusercontent.com/93427522/201110876-c30a7df2-acab-4a35-89a9-b8b89cac3c6f.png">
 
+### pipo
 <img width="830" alt="td3" src="https://user-images.githubusercontent.com/93427522/201110899-8278bff1-4bd4-4ad4-a669-061f8d533e60.png">
 
 ### RESULTS 
